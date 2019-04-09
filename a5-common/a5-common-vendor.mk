@@ -111,5 +111,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/a5-common/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
-    vendor/samsung/a5-common/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so
+
+# Audio
+PRODUCT_COPY_FILES += \
+    vendor/samsung/a5-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
+    vendor/samsung/a5-common/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
+    vendor/samsung/a5-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_SamsungRec_V04012.so:system/lib/lib_SamsungRec_V04012.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    vendor/samsung/a5-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
+    vendor/samsung/a5-common/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
+    vendor/samsung/a5-common/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
+    vendor/samsung/a5-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/a5-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/a5-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/a5-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+    vendor/samsung/a5-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/samsung/a5-common/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
