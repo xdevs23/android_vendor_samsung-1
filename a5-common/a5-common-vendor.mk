@@ -134,6 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/samsung/a5-common/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
-    vendor/samsung/a5-common/proprietary/lib/hw/audio_amplifier.msm8916.so:system/vendor/lib/hw/audio_amplifier.msm8916.so \
-    vendor/samsung/a5-common/proprietary/vendor/lib/libtfa9895.so:system/lib/libtfa9895.so
+    vendor/samsung/a5-common/proprietary/lib/hw/audio_amplifier.msm8916.so:system/vendor/lib/hw/audio_amplifier.msm8916.so
+    
     
