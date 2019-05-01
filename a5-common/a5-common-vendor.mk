@@ -126,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
     vendor/samsung/a5-common/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
     vendor/samsung/a5-common/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
-    vendor/samsung/a5-common/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
     vendor/samsung/a5-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/a5-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/a5-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
