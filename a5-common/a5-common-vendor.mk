@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/a5-common/proprietary/etc/F13QS_imx135_module_info.xml:system/etc/F13QS_imx135_module_info.xml \
     vendor/samsung/a5-common/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
-    vendor/samsung/a5-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/hw/sensor.vendor.msm8916.so:system/vendor/lib/hw/sensor.vendor.msm8916.so \
     vendor/samsung/a5-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/a5-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/a5-common/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
@@ -114,6 +115,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a5-common/proprietary/lib/hw/audio_amplifier.msm8916.so:system/vendor/lib/hw/audio_amplifier.msm8916.so
+    vendor/samsung/a5-common/proprietary/lib/hw/audio_amplifier.msm8916.so:system/vendor/lib/hw/audio_amplifier.msm8916.so \
+    vendor/samsung/a5-common/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so 
     
     
